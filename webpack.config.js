@@ -1,8 +1,8 @@
 /*
 * @Author: Rosen
 * @Date:   2016-11-20 13:19:28
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-06-15 09:38:12
+ * @Last Modified by: chencong
+ * @Last Modified time: 2018-05-03 11:34:01
 * 知识点：css单独打包、全局jquery引用、各种loader
 */
 
@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.happymmall.com/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.dianpoint.com/admin-fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {

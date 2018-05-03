@@ -1,7 +1,7 @@
 {
-  "name": "mmall_admin_fe",
+  "name": "admin_fe",
   "version": "1.0.0",
-  "description": "admin.happymmall.com",
+  "description": "admin.dianpoint.com",
   "main": "index.js",
   "scripts": {
     "dev"     : "WEBPACK_ENV=dev webpack-dev-server --port 8086 --inline",
@@ -11,9 +11,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://git.oschina.net/happymmall/mmall_admin_fe.git"
+    "url": "https://github.com/chencong-plan/admin-fe.git"
   },
-  "author": "Rosen",
+  "author": "chencong",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7",
